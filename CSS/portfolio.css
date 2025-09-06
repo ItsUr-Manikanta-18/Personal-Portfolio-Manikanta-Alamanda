@@ -150,6 +150,12 @@ h6 {
     padding: 20px 0 0 0;
     margin-top: 0px !important;
 }
+header{
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    background-color: #fff;
+}
 
 .header-con {
     display: flex;
@@ -318,7 +324,7 @@ h1 {
     align-items: center;
     box-shadow: 0px 36px 105px 0px #2B384C1A;
     position: relative;
-    z-index: 1;
+    z-index: 0;
     margin-bottom: -108px;
     background: #ffff;
 }
@@ -782,7 +788,9 @@ h3 {
 }
 
 
-
+.link{
+    margin-bottom: 30px;
+}
 .mydetails {
     max-width: 481px;
     flex: 0 0 481px;
@@ -875,3 +883,109 @@ footer {
 .footer-con nav ul li a {
     color: #F0F1F3;
 }
+
+
+/* fixed-icon  */
+
+#whatsapp-icon {
+    position: fixed;
+    bottom: 108px;
+    right: 20px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+}
+
+
+
+#whatsapp-icon:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+}
+
+.tooltip {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px; /* Adjust to ensure the tooltip is centered */
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip::after {
+    content: "";
+    position: absolute;
+    top: 100%; /* At the bottom of the tooltip */
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent; /* Arrow effect */
+}
+.social-icon-img{
+    height: 80px;
+    width: 73px;
+}
+.linkdin{
+    width: 85px;
+}
+.github{
+    width: 54px;
+}
+.whatsapp{
+    width: 54px;
+}
+.gmail{
+    width: 54px;
+}
+#github-icon{
+    position: fixed; /* Fix the position on the screen */
+    bottom: 120px; /* Distance from the bottom */
+    right: 20px; /* Distance from the left side */
+    background-color: transparent; /* No background color */
+    border: none; /* No border */
+    cursor: pointer;
+    text-decoration: none; /* Remove underline from the link */
+    display: inline-flex;
+    align-items: center;
+}
+#gmail-icon{
+    position: fixed; /* Fix the position on the screen */
+    bottom: 220px; /* Distance from the bottom */
+    right: 18px; Distance from the left side */
+    background-color: transparent; /* No background color */
+    border: none; /* No border */
+    cursor: pointer;
+    text-decoration: none; /* Remove underline from the link */
+    display: inline-flex;
+    align-items: center;
+}
+#linkdin-icon {
+    position: fixed;
+    bottom: 300px;
+    right: 4px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+}
+.contact-icon-individual{
+    
+    z-index: 99;
+}
+
+.footer-con nav {
+    margin-right: 47px;
+}
+

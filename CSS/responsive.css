@@ -59,9 +59,9 @@
         margin-bottom: 20px;
     }
 
-    .portfolio-card {
+    /* .portfolio-card {
         max-width: 370px;
-    }
+    } */
 
     .forcollab {
         padding: 50px 0px;
@@ -160,6 +160,13 @@
         max-width: 243px;
         flex: 0 0 243px;
     }
+    
+.portfolio-card {
+    
+    flex: 0 0 calc(100%/2 - 24px);
+    
+}
+    
 }
 
 @media screen and (max-width : 1199px) {
@@ -386,7 +393,7 @@
 
     .card {
         padding: 14px;
-        flex: 0 0 calc(100% / 3 - 24px);
+        flex: 0 0 calc(100% /3 - 24px);
     }
 
     .workprocess-cards {
@@ -408,7 +415,7 @@
 
     .portfolio-card {
         max-width: 100%;
-        flex: 0 0 calc(100%/3 - 12px);
+        flex: 0 0 calc(100%/1 - 12px);
         margin: 24px 6px;
     }
 
@@ -499,7 +506,7 @@
   }
 .menu-list {
     position: absolute;
-    top: 69px;
+    top: 85px;
     left: 0;
     right: 0;
     background-color: white;
@@ -600,7 +607,7 @@
 
     .portfolio-card {
         max-width: 100%;
-        flex: 0 0 calc(100%/2 - 12px);
+        flex: 0 0 calc(100%/1 - 12px);
         margin: 24px 6px;
     }
 
@@ -659,5 +666,55 @@
 .card{
     flex: 0 0 calc(100% / 1 - 24px);
 }
-
+.portfolio-img {
+    width: 355px;
+}
+.social-icon-img {
+    height: 185px;
+    width: 28px;
+}
+.linkdin{
+    width: 54px;
+}
+#linkdin-icon {
+    right: 3px;
+}
+.github {
+    width: 42px;
+}
+#github-icon {
+    right: 8px;
+}
+.whatsapp {
+    width: 41px;
+}
+#whatsapp-icon {
+    right: 9px;
+    bottom: 165px;
+ }
+ #github-icon {
+    bottom: 220px;
+}
+#linkdin-icon {
+    bottom: 320px;
+}
+.gmail {
+    width: 26px;
+}
+#gmail-icon {
+    bottom: 280px;
+}
+.footer-con nav {
+    margin-right: 0px;
+}
+.footer-con nav li a{
+    font-size: 11px;
+}
+footer .logo, footer nav ul {
+    margin: 20px 0px;
+}
+#whatsapp-icon {
+    right: 9px;
+    bottom: 215px;
+}
 }
