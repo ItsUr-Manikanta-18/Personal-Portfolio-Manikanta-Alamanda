@@ -488,6 +488,10 @@
     footer p {
         font-size: 12px;
     }
+
+    .portfolio-img {
+    width: 100%;
+}
 }
 
 @media screen and (max-width : 767px) {
@@ -495,6 +499,7 @@
         width: 100%;
         padding: 0 15px;
     }
+
 
 /* hamb  */
 .menu-icon i,.mob-menu{
@@ -635,6 +640,9 @@
     footer nav ul {
         margin-bottom: 20px;
     }
+    .portfolio-img {
+    width: 100%;
+}
 }
 
 @media screen and (max-width : 479px) {
@@ -716,5 +724,8 @@ footer .logo, footer nav ul {
 #whatsapp-icon {
     right: 9px;
     bottom: 215px;
+}
+.portfolio-img {
+    width: 100%;
 }
 }
